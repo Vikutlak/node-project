@@ -9,8 +9,8 @@ let end = '';
 while (end != 'Y'){
   products.push({});
   products[i].item = prompt('Insert the name of the product: ').trim();
-  products[i].price = parseInt(prompt('Cool! How much does it cost? '));
-  products[i].numberOfItems = parseInt(prompt('And how many will be bought? '));
+  products[i].price = parseInt(prompt('Cool! How much does it cost? ').trim());
+  products[i].numberOfItems = parseInt(prompt('And how many will be bought? ').trim());
   end = prompt('Is that all? (Y/N) ').trim().toUpperCase();
   i++;
 }
@@ -18,10 +18,10 @@ while (end != 'Y'){
 i = 0;
 end = '';
 
-while (end != 'Y' ){
+while (end != 'N' ){
   emails.push({})
   emails[i].name = prompt(`Insert the buyer's email: `);
-  end = prompt('Are you done? (Y/N)').trim().toUpperCase();
+  end = prompt('Is there another one? (Y/N) ').trim().toUpperCase();
   i++;
 }
 
