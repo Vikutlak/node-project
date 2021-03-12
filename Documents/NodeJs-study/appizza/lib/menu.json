@@ -1,0 +1,34 @@
+[
+  {
+    "Id": 1,
+    "Name": "X-Basic",
+    "Price": 30,
+    "Ingredients": ["tomato sauce", "mozzarella"],
+    "Vegetarian": false,
+    "Vegan": false
+  },
+  {
+    "Id": 2,
+    "Name": "Texas-style",
+    "Price": 26,
+    "Ingredients": ["hot tomato sauce", "spicy chicken", "mozzarella", "cheddar"],
+    "Vegetarian": false,
+    "Vegan": false
+  },
+  {
+    "Id": 3,
+    "Name": "Meatless",
+    "Price": 25.50,
+    "Ingredients": ["pizza sauce", "mushroom", "onion", "green pepper", "tomato", "black olive", "mozzarella"],
+    "Vegetarian": true,
+    "Vegan": false
+  },
+  {
+    "Id": 4,
+    "Name": "La Jardinera",
+    "Price": 17.50,
+    "Ingredients": ["sliced carrot", "mushroom", "pickles", "green pepper", "tomato", "black olive", "smoked chick peas"],
+    "Vegetarian": true,
+    "Vegan": true
+  }
+]
